@@ -82,6 +82,13 @@ public class Main {
             month++;
         }
 
+        //Task 7
+
+        int firstFryday =  5;
+        for (int day = firstFryday; day < 31; day = day + 7){
+            System.out.println("Сегодня пятница,"+day+"-е число. Необходимо подготовить отчет");
+        }
+
 
 
 
