@@ -42,6 +42,21 @@ public class Main {
             System.out.println("Год " + year + " , численность населения составляет " + totalPopulation);
         }
 
+        //Task 4
+
+        total = 12_000_000;
+        sum = 15_000;
+        month = 1;
+        double percent = 0.07;
+        while (true) {
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
+            sum = (int) (sum + sum * percent);
+            month++;
+           if (sum >= total) {
+                break;
+           }
+        }
+
     }
 
 }
