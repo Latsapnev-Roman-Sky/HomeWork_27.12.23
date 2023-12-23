@@ -89,10 +89,16 @@ public class Main {
             System.out.println("Сегодня пятница,"+day+"-е число. Необходимо подготовить отчет");
         }
 
+        //Task 8
 
-
-
-
+        int period = 79;
+        int currentYear = 2023;
+        int start = currentYear - 200;
+        int end = currentYear + 100;
+        for (int year = start; year < end; year++) {
+            if (year % period == 0){
+                System.out.println(year);
+            }
+        }
     }
-
 }
