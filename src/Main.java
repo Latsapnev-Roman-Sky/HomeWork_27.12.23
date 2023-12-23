@@ -69,6 +69,21 @@ public class Main {
             month++;
         }
 
+        //Task 6
+
+        sum = 15_000;
+        month = 1;
+        int months = 12 * 9;
+        while (month <= months) {
+            sum = (int) (sum + sum * percent);
+            if (month % 6 == 0) {
+                System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
+            }
+            month++;
+        }
+
+
+
 
 
     }
